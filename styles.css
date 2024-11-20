@@ -1,0 +1,65 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  grid-area: auto;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  text-align: center;
+  padding: 20px;
+  font: sans-serif;
+  align-items: center;
+  border-style: solid;
+
+}
+
+/* Container to center the table */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Title styling */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-style: solid;
+  margin-top: 20px;
+  border-style: solid;
+
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+td {
+  background-color: #fff;
+}
+
+/* Styling for breaks and lunch */
+td:contains('BREAK'),
+td:contains('LUNCH') {
+  background-color: #ffcc
+
+
+
+
