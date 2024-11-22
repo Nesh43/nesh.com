@@ -36,7 +36,6 @@ table {
   width: 100%;
   border-style: solid;
   margin-top: 20px;
-  border-style: solid;
 
 }
 
@@ -44,15 +43,19 @@ th, td {
   padding: 10px;
   border: 1px solid #ddd;
   text-align: center;
+  font-size: 14;
 }
 
 th {
   background-color: #4CAF50;
   color: white;
+  font-size: large;
+  font-style: italic;
 }
 
 td {
   background-color: #fff;
+
 }
 
 /* Styling for breaks and lunch */
